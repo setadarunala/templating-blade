@@ -11,7 +11,7 @@
 |
  */
 Route::get('/', function () {
-    return view('index');
+    return view('adminlte.partials.table');
 });
 Route::get('/register', function () {
     return view('register');
